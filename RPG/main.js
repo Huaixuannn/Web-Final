@@ -52,9 +52,9 @@ $(function(){
 
     let sources = {
         box:"images/material.png",
-        break:"images/foods.png",
-        lunch:"images/foods.png",
-        dinner:"images/foods.png"
+        break:"images/Foods.png",
+        lunch:"images/Foods.png",
+        dinner:"images/Foods.png"
     };
 
 
