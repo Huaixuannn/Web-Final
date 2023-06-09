@@ -82,27 +82,10 @@ $(function(){
             }
         }
     });
-
-//     imgMountian.onload = function(){
-//         imgEnemy.onload = function(){
-//             for(let x in mapArray){
-//                 for(let y in mapArray){
-//                     if(mapArray[x][y] == 1){
-//                         ctx.drawImage(imgMountian, 32,65,32,32,y*gridLength,x*gridLength,gridLength,gridLength);
-//                     }
-//                     else if(mapArray[x][y] == 3){
-//                         ctx.drawImage(imgEnemy, 7,40,104,135,y*gridLength,x*gridLength,gridLength,gridLength);
-//                     }
-//                 }
-//             }
-//         }
-//     }
-
-
-// });
+});
 
         
-});
+
 
 //Click Event
 $(document).on("keydown", function(event){
