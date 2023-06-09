@@ -54,7 +54,7 @@ $(function(){
         box:"images/material.png",
         break:"images/foods.png",
         lunch:"images/foods.png",
-        dinner:"images/oods.png"
+        dinner:"images/foods.png"
     };
 
 
