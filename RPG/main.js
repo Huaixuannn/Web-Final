@@ -57,12 +57,6 @@ $(function(){
         dinner:"images/foods.png"
     };
 
-    
-//     // 放障礙物
-//     imgMountian = new Image();
-//     imgMountian.src = "images/material.png";
-//     imgEnemy = new Image();
-//     imgEnemy.src = "images/Enemy.png";
 
     loadImages(sources, function(images){
         for(let x in mapArray){
