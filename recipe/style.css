@@ -1,0 +1,141 @@
+body{
+    background-color: rgba(44, 51, 73, 0.923);
+}
+h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(113, 152, 225, 0.937);
+    position: absolute;
+    top: 0px; right: 0; left: 0;
+    margin-top: 0%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: rgba(52, 52, 52, 0.868);
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 40px;
+} 
+
+
+
+h2{
+    position: absolute;
+    top: 60px; right: 0; left: 0;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+p{
+    position: absolute;
+    top: 100px; right: 0; left: 0;
+    text-align: center;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    margin-top: 40px;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+
+
+#randomMeal{
+    position: absolute;
+    top: 150px; right: 0; left: 0;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#randomCookingTime{
+    position: relative;
+    top: 150px; right: 0; left: 0;
+    /* margin-bottom: 10%; */
+    padding-bottom: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#recipeImage{
+    position: relative;
+    padding-top: 30px;
+    top: 200px; right: 0; left: 0;
+    margin:auto;
+    display: block;
+}
+
+.readmore{
+    justify-content: center;
+    text-align: center;
+}
+
+#readMorebtn{
+    position: relative;
+    text-align: center;
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+    background-color: rgba(68, 104, 195, 0.855);
+    cursor: pointer;
+    border-color: rgba(193, 211, 255, 0.855);
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(46, 46, 46);
+    font-weight: bold;
+    box-shadow: 10px 10px 10px;
+    top: 0px; right: 0; left: 0;
+}
+
+#slide{
+    position: relative;
+    /* text-align: center; */
+    color:rgb(254, 254, 254);
+    font-weight: bold;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    top: 150px; right: 0; left: 0;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0;
+    font-size: 15px;
+}
+
+#todoList{
+    background-color: rgba(136, 172, 255, 0.562);
+    /* margin-right: 70%; */
+    /* margin-left: 2%; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    display: inline-block;
+    /* position: relative; */
+    text-align: left;
+    /* top: 150px; right: 0; left: 0; */
+    font-size: 18px;
+    color: aliceblue;
+    opacity: 0;
+    /* margin-left: 5%; */
+}
+
+.stepList{
+    text-align: center;
+    position: relative;
+    top: 150px; right: 0; left: 0;
+    padding-bottom: 30px;
+    padding-left: 23%;
+    padding-right: 23%;
+    color: aliceblue;
+}
+
+#step{
+    text-align: left;
+    display: block;
+    background-color: rgba(136, 172, 255, 0.562);
+    border-radius: 30px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    /* margin-right: 20px; */
+    opacity: 0;
+}
