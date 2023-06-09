@@ -37,7 +37,7 @@ $(function(){
     ctx = $("#myCanvas")[0].getContext("2d");
 
     imgMain = new Image();
-    imgMain.src = "img/sprite-sheet.png";
+    imgMain.src = "images/sprite-sheet.png";
     currentImagMain = {
         x:0,
         y:0
@@ -51,10 +51,10 @@ $(function(){
     };
 
     let sources = {
-        box:"img/material.png",
-        break:"img/foods.png",
-        lunch:"img/foods.png",
-        dinner:"img/foods.png"
+        box:"images/material.png",
+        break:"images/foods.png",
+        lunch:"images/foods.png",
+        dinner:"images/foods.png"
     };
 
     
